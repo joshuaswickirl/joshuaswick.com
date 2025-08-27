@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange: #ed935f;
+
+  /* Warm gray scale (slightly warm, stone-like) */
+  --color-gray-900: #1c1917;
+  --color-gray-800: #292524;
+  --color-gray-700: #44403c;
+  --color-gray-600: #57534e;
+  --color-gray-500: #78716c;
+
+  /* Semantic aliases */
+  --color-primary: #fff8e7; /* cosmic latte */
+  --color-tertiary: var(--color-gray-800);
+}

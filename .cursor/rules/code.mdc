@@ -1,0 +1,8 @@
+---
+alwaysApply: true
+---
+
+- Project uses nvm. Run `nvm use --lts` when creating a new shell. 
+- Project uses pnpm, please use the latest versions of packages and do no modify package.json directly.
+- Run pnpm run fix after making changes and fix the lint errors.
+- Do not commit and push without my consent.
