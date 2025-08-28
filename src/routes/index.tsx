@@ -15,16 +15,16 @@ function Home() {
   return (
     <main className="px-6 sm:px-8 lg:px-12 pt-8 lg:pt-16 pb-16">
       <section className="w-full max-w-3xl sm:mx-12 md:mx-auto space-y-2 text-left">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight text-gray-700 dark:text-primary">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight text-gray-warm-800 dark:text-primary">
           Joshua Swick
         </h1>
-        <p className="text-gray-700 dark:text-primary text-lg lg:text-lg leading-relaxed max-w-prose break-words hyphens-auto">
+        <p className="text-gray-warm-700 dark:text-primary text-lg lg:text-lg leading-relaxed max-w-prose break-words hyphens-auto">
           Building tools to accelerate ingenuity.
         </p>
-        <ul className="gap-y-8 text-gray-700 dark:text-gray-300 text-lg lg:text-lg max-w-prose mb-8">
+        <ul className="gap-y-8 text-gray-warm-800 dark:text-gray-warm-300 text-lg lg:text-lg max-w-prose mb-8">
           <li className="flex items-center gap-3">
             <IconMail
-              className="h-5 w-5 md:h-6 md:w-6 text-gray-600 dark:text-primary"
+              className="h-5 w-5 md:h-6 md:w-6 text-gray-warm-600 dark:text-primary"
               stroke={1.75}
               aria-hidden="true"
             />
@@ -38,7 +38,7 @@ function Home() {
           </li>
           <li className="flex items-center gap-3">
             <IconBrandYoutube
-              className="h-5 w-5 md:h-6 md:w-6 text-gray-600 dark:text-primary"
+              className="h-5 w-5 md:h-6 md:w-6 text-gray-warm-600 dark:text-primary"
               stroke={1.75}
               aria-hidden="true"
             />
@@ -54,7 +54,7 @@ function Home() {
           </li>
           <li className="flex items-center gap-3">
             <IconBrandX
-              className="h-5 w-5 md:h-6 md:w-6 text-gray-600 dark:text-primary"
+              className="h-5 w-5 md:h-6 md:w-6 text-gray-warm-600 dark:text-primary"
               stroke={1.75}
               aria-hidden="true"
             />
@@ -70,7 +70,7 @@ function Home() {
           </li>
           <li className="flex items-center gap-3">
             <IconBrandGithub
-              className="h-5 w-5 md:h-6 md:w-6 text-gray-600 dark:text-primary"
+              className="h-5 w-5 md:h-6 md:w-6 text-gray-warm-600 dark:text-primary"
               stroke={1.75}
               aria-hidden="true"
             />
@@ -86,7 +86,7 @@ function Home() {
           </li>
           <li className="flex items-center gap-3">
             <IconBrandLinkedin
-              className="h-5 w-5 md:h-6 md:w-6 text-gray-600 dark:text-primary"
+              className="h-5 w-5 md:h-6 md:w-6 text-gray-warm-600 dark:text-primary"
               stroke={1.75}
               aria-hidden="true"
             />

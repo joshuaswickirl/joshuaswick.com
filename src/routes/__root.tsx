@@ -34,7 +34,11 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
       <head>
         <HeadContent />
       </head>
-      <body className="font-sans min-h-dvh bg-white text-gray-800 dark:bg-gray-700 dark:text-primary antialiased selection:bg-orange/40 selection:text-gray-900 dark:selection:text-gray-900">
+      <body
+        className="font-sans min-h-dvh antialiased bg-white dark:bg-gray-warm-900
+      selection:bg-blue-200 dark:selection:bg-primary
+      selection:text-gray-warm-800"
+      >
         {children}
         <Scripts />
       </body>
